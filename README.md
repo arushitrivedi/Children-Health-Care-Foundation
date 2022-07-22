@@ -1,2 +1,2 @@
-# CHCF
-A website that accepts funds from different organizations through online payment methods such as net banking, cards,UPI, etc. On successful payment, an invoice is generated and an email is sent to the user with the necessary details.
+# payment_gateway
+A grip project used to make donations to the TSF foundation. The website is made mainly using HTML, CSS and JavaScript.

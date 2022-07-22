@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>The CHCF Payment Gateway</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,400;0,600;1,300;1,400;1,600&family=Muli:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    
+    
+  </head>
+  <body>
+    <div class="container">
+      <div class="hamburger-menu" id="toggleIt">
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
+        
+      </div>
+      <header class="header" id="home">
+        
+          <div class="img-wrapper"><img src="images/background.jpg" alt="children"></div>
+          <div class="banner">
+            <h1>Children's Health Care Foundation</h1>
+          
+          <p>Your Donation is Others Inspiration</p>
+          <div class="razorPay-button" >    
+            <form>
+                <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HjtUmPdIREByTn" async> </script>
+             </form>    
+          </div> 
+           </div>
+
+      </header>
+      <section class="sidebar" id="side-bar">
+        <ul class="menu">
+        <li class="menu-item" >
+          <a href="#home" class="menu-link" data-content="Home">Home</a>
+        </li>
+        <li class="menu-item">
+          <a href="#about" class="menu-link" data-content="About Us">About Us</a>
+        </li>
+        <li class="menu-item">
+          <a href="#team" class="menu-link" data-content="Team">Team</a>
+        </li>
+        <li class="menu-item" >
+          <a href="#contact" class="menu-link" data-content="Contact">Contact</a>
+        </li>
+      </ul>
+      <div class="social-media">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+      </section>
+      <section class="about-us" id="about">
+        <div class="section-header">
+          <h1 class="section-heading" >About Us</h1>
+          <div class="underline"> </div>
+        </div>
+        <div class="section-body">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio expedita possimus soluta voluptas atque iste sunt amet, impedit veniam asperiores accusantium voluptatibus vitae! Numquam voluptate quisquam saepe magni voluptatibus alias! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, quo ut dignissimos labore eos culpa dolore nam nobis maxime eveniet aut neque repudiandae, maiores exercitationem reiciendis atque! Assumenda, iusto sunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. At, voluptates rerum amet laborum voluptatibus ratione velit vel ad tenetur inventore ducimus rem molestiae, iusto magnam omnis autem harum, similique ex.          
+          </p>
+          <br>
+          
+          
+        </div>
+      </section>
+      <section class="team" id="team">
+        <div class="section-header">
+          <h1 class="section-heading">Our Team</h1>
+          <div class="underline"></div>
+        </div>
+        <div class="cards-wrapper">
+          <div class="card" data-tilt>
+            <div class="card-img-wrapper">
+              <img src="images/person-1.jpg" alt="CEO" />
+            </div>
+            <div class="card-info">
+              <h2>John Smith</h2>
+              <h3>Founder</h3>
+              <p>
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores, impedit!"
+              </p>
+              <button>Read More</button>
+            </div>
+          </div>
+          <div class="card" data-tilt>
+            <div class="card-img-wrapper">
+              <img src="images/person-2.jpg" alt="Designer" />
+            </div>
+            <div class="card-info">
+              <h2>Ann Brown</h2>
+              <h3>Co-founder</h3>
+              <p>
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores, impedit!"
+              </p>
+              <button>Read More</button>
+            </div>
+          </div>
+          <div class="card" data-tilt>
+            <div class="card-img-wrapper">
+              <img src="images/person-3.jpg" alt="Architect" />
+            </div>
+            <div class="card-info">
+              <h2>Mary Doe</h2>
+              <h3>Manager</h3>
+              <p>
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores, impedit!"
+              </p>
+              <button>Read More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="contact-wrapper">
+          <div class="contact-left"></div>
+          <div class="contact-right">
+            <h1 class="contact-heading">Contact</h1>
+            <form name="frmContact" method="post" action="contact_form.php">
+              <div class="input-group">
+                <input type="text" class="field" name="txtName" id="txtName" placeholder="Full Name" required>
+                <label class="input-label"></label>
+                
+              </div>
+              <div class="input-group">
+                <input type="email" class="field" name="txtEmail" id="txtEmail" placeholder="E-mail" required>
+                <label class="input-label" for="email"></label>
+              </div>
+              <div class="input-group">
+                <textarea class="field" name="txtMessage" id="txtMessage" placeholder="Message" maxlength="256" required></textarea>
+                <label class="message" for="message"></label>
+              </div>
+              <input type="submit" class="submit-btn" name="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-content">
+          <p class="copyright">
+            Copyright &copy; 2021, CodeAndCreate - All Rights Reserved
+          </p>
+          <div class="social-list">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </footer>
+      <a href="#" class="scroll-btn">
+        <i class="fas fa-arrow-up"></i>
+      </a>    
+    </div>
+    
+    <script src="script.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <script src="tilt.js"></script>
+    
+  </body>
+</html>
