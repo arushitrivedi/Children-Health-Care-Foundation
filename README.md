@@ -7,6 +7,23 @@ Highlights : A website to collect funds for children
 
 Here is how the website works and looks like. 
 
-![]([https://i.imgur.com/ouzFYxZ.png](https://drive.google.com/file/d/1dd_L_bVrou8O_67G5q8DfW7ggSPQrgFa/view?usp=drive_link)https://drive.google.com/file/d/1dd_L_bVrou8O_67G5q8DfW7ggSPQrgFa/view?usp=drive_link)
-
-![]([https://i.imgur.com/55TCMnA.png](https://drive.google.com/file/d/15HxsKqraPw_swB2eH9gVEAnVTb9yIZx6/view?usp=sharing)https://drive.google.com/file/d/15HxsKqraPw_swB2eH9gVEAnVTb9yIZx6/view?usp=sharing)
+The landing page of the website (with a moving animation added in the background)
+![](https://ibb.co/xHNW53V)
+The About Us section with the sidebar that was opened after pressing the ham-burger button on top right corner.
+![](https://ibb.co/3pDyk4y)
+Our Team section which displays the information of the team leads on hovering on the cards.
+![](https://ibb.co/4WmvmCN)
+The Contact section which sends details of the sender on email.
+![](https://ibb.co/ScLVjCN)
+On clicking the "donate now" button, the amount to be donated is entered.
+![](https://ibb.co/3WGT0hX)
+Necessay details are then filled.
+![](https://ibb.co/8s9nS8P)
+Various payment options are displayed such as UPI, Card, Netbanking, etc.
+![](https://ibb.co/k10C1p8)
+On choosing netbanking, the bank is selected.
+![](https://ibb.co/qm4TTK3)
+Payment is Successful.
+![](https://ibb.co/MVgY0Q3)
+An invoice is generated and sent to the sender.
+![](https://ibb.co/TMByz2x)
